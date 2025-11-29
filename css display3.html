@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html layout 2</title>
+    <style>
+         body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box ;
+        }
+        main{
+            width: 1200px;
+            height: auto;
+            background-color: #999  ;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            height: 100px;
+            background-color: burlywood;
+
+        }
+        section{
+            height: auto;
+            background-color: antiquewhite;
+        }
+        .box1{
+            height: 80px;
+            width: auto;
+            background-color: rgb(200, 227, 218);
+            gap: 25px;
+        }
+       
+        }
+        .box{
+                width: 250px;
+                height: 200px;
+                background-color : rgb(247, 209, 215);
+            }
+
+          footer{
+            height: 80px; line-height:80px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2>header</h2></header>
+
+    <section>
+        <div class="box1"></div>
+        <div class="box1"></div> 
+       </section>
+
+    <div id="box"><h2>box</h2></div>
+
+    <footer><h2>footer</h2></footer>
+    </main>
+    
+</body>
+</html>
